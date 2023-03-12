@@ -1,14 +1,9 @@
-// #define FIREBASE_HOST "prabhusrohith-default-rtdb.firebaseio.com"  
-// #define FIREBASE_AUTH "IVzo5cSDhBflUPhdJlNttrZczmb2COrzU0DFtKBz"  
-// #define WIFI_SSID "Rohini-2.4G"
-// #define WIFI_PASSWORD "prabhugalu"
-
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>                         
-#define FIREBASE_HOST "prabhusrohith-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "IVzo5cSDhBflUPhdJlNttrZczmb2COrzU0DFtKB" 
-#define WIFI_SSID "Rohini-2.4G"                                              
-#define WIFI_PASSWORD "prabhugalu"                                      
+#define FIREBASE_HOST "example-default-rtdb.firebaseio.com"
+#define FIREBASE_AUTH "secret" 
+#define WIFI_SSID "ssid-name"                                              
+#define WIFI_PASSWORD "wifi-password"                                      
 // Declare the Firebase Data object in the global scope
 FirebaseData firebaseData;
 // Declare global variable to store value
